@@ -12,9 +12,8 @@ def reverse_each_word(sentence)
 end
 
 def reverse_each_word(sentence)
-   toppings.collect do |topping|
-    puts "I love #{topping} on my burgers!"
-  end
+  new_sentence = []
+  new_sentence = sentence.split(" ")
   sentence.collect do |sentence|
   new_sentence = sentence.split(" ")
   
