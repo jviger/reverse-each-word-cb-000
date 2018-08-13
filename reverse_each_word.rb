@@ -20,7 +20,7 @@ def reverse_each_word(sentence)
   
   new_text = ""
   new_sentence.each do |x|
-    new_text << "#{x.reverse} "
+    new_text << "#{x.reverse}"
   end
   
   return new_text[0...-1]
