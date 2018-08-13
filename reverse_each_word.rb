@@ -14,8 +14,9 @@ end
 def reverse_each_word(sentence)
   new_sentence = []
   new_sentence = sentence.split(" ")
-  sentence.collect do |sentence|
-  new_sentence = sentence.split(" ")
+  new_sentence.collect do |sent|
+  sent.reverse
+  end
   
   new_text = ""
   new_sentence.each do |x|
